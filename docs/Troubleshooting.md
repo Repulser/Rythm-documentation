@@ -77,9 +77,9 @@ Rythm uses embeds to post messages. You might have disabled website previews on 
   
 2. Make sure you're using the correct prefix. You can mention Rythm to get the prefix.<br/>
 
-  ![Mention to get prefix](/img/docs/settings/prefix.png)
+  ![Mention to get prefix](/img/docs/basic-troubleshooting/prefix.png)
   
-  ![Mention to get prefix 2](/img/docs/settings/prefix2.png)
+  ![Mention to get prefix 2](/img/docs/basic-troubleshooting/prefix2.png)
   
   + You can learn how to change Rythm's prefix by heading to the [Prefix Setting](/settings#prefix) section!
   
