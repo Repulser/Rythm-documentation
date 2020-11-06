@@ -144,10 +144,6 @@ To change the default volume for when you summon Rythm to a voice channel, use t
 ## DJ Only Playlists
 This setting allows you to control if only DJs can queue playlists, or if everyone can.
 
-:::caution
-Due to how Rythm counts DJ, if someone is alone with Rythm, they are able to queue a playlist regardless of having a DJ role.
-:::
-
 To enable or disable DJ only playlists, use the following command:<br/>
 `!settings djplaylists yes/no`
 
