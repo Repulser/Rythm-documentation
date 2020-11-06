@@ -69,7 +69,7 @@ The default prefix of Rythm is `!`, Rythm 2 is `>`, Rythm Canary is `*`.
 
 ![MentionPrefixC](/img/docs/faq/rythm-c.png)
 
-You can also use mention as prefix! 
+You can also use mention as a prefix! 
 
 ![MentionAsPrefix](/img/docs/faq/mention-as-prefix.png)
 
@@ -117,7 +117,7 @@ Rythm will then remove all duplicates of any songs within your servers queue.
    They can also use other commands that don't affect the playing music or the queue in any way. Example: `!queue`, `!lyrics`, `!save`.
 2. However, normal users can access ALL music commands when they are alone with Rythm in the voice channel.
    This is because their commands would not affect anyone but themselves.
-  - For more information about users command permissions, refer to the **[Permissions](/permissions)** section in this FAQ.
+  - For more information about users command permissions, refer to the **[Understanding Permissions](/permissions)** section in this documentation.
 
 ### What does DJ role do and how do I set up DJ role for my server?
 
@@ -198,7 +198,7 @@ You can play Spotify song/playlist through Rythm by just simply doing `!play <So
 ### Can I adjust the volume for everyone on my server for Rythm?
 Yes, if you [donate](https://rythmbot.co/donate?do).
 
-Rythm uses the default volume when using audio streams. In order to change the volume of these audio streams we need to enable encoding. As encoding requires a lot of compute resources, only donators can access this feature.
+Rythm uses the default volume when using audio streams. In order to change the volume of these audio streams we need to enable encoding. As encoding requires a lot of computing resources, only donators can access this feature.
 
 You may set the local volume of Rythm for yourself:
 1. If you are on PC, you can right-click Rythm in the voice channel and adjust the user volume slider as shown below.
@@ -229,7 +229,7 @@ For more detail, please [click here](https://discord.com/developers/docs/topics/
 ### Can Rythm play 24/7 Music?
 No, Rythm is not a 24/7 music bot.
 The reason behind this decision is because music bots require a lot of resources.
-So when the bot is by itself, and not being used by anyone, these resources are still being used, leaving less available for other people. 
+Therefore, when the bot is by itself, and not being used by anyone, these resources are still in use, leaving less availability for other people. 
 If you do want a bot that plays music 24/7, you can host one with [Moosic](https://github.com/Repulser/Moosic).
 Instructions on how to host this is on [Moosic's wiki](https://github.com/Repulser/Moosic/wiki).
 
