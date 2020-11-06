@@ -19,7 +19,7 @@ Now you can sing along or host a some karaoke event with friends even if you don
 ## Advanced Music Functionality 
 
 ### Player
-While listening to Rythm, you can control the player with useful commands such as `!seek`, `!replay`,...
+While listening to Rythm, you can control the player with useful commands such as `!seek`, `!replay`...
 
 ![Player](/img/docs/features/player-feature.png)
 
