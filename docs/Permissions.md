@@ -16,12 +16,11 @@ Rythm's built-in permission system can be divided into the following groups:
 
 ### User alone with Rythm/User with a `DJ` role or the `Manage Channels` permission
 :::info note
-This includes all other users in the voice chat being deafened.
+Rythm still count you as alone with it if all other users are deafened.
 :::
  - Has full access to all music commands.
+ - Bypasses [`maxusersongs` setting](/settings#max-user-songs) limit.
  - Can't change Rythm's settings.
-
-**Note**: If there isn't a role named `DJ` in your server, one can be created with no special permissions assigned and they will still be able to access these features.
 
 ### User with `Manage Server` permission
  - Is able to change Rythm's settings.
@@ -31,14 +30,41 @@ This includes all other users in the voice chat being deafened.
  - Is able to change Rythm's settings.
  - Has full access to all music commands.
 
+## DJ Role
+
+### Permission/Access
+DJ role grants you more permissions over Rythm. You can refer to **[here](#user-alone-with-rythmuser-with-a-dj-role-or-the-manage-channels-permission)** section to learn more about what DJ users can do.
+
+### Setting up DJ role
+:::note 
+You need `Manage Roles` permission to create and assign roles in your server.
+:::
+1. **Create a DJ role:**
+    - Go to your server settings and head to `Roles` section.
+    - Create a new role without any special permission and name it `DJ`.
+    - Click on `Save Changes`, and you just created a new DJ role. 🎉<br/>
+    
+    ![CreateDJRole](/img/docs/perms/setting-dj.png)
+    
+2. **Assign the DJ role to other users:**
+    - Click on their name or avatar.
+    - Click on `+`
+    - Choose `DJ` role.<br/>
+    
+    ![AssignDJRole](/img/docs/perms/assign-dj.png)
+    
+You are all set! Rythm will automatically recognize the `DJ` role and work perfectly!
+
+### Other DJ setttings
+Use the links below to go to each setting:
+1. [DJ Role](/settings#dj-role) (Set a role to be considered as DJ)
+2. [DJ Only Mode](/settings#dj-only-mode)
+3. [DJ Only Playlist](/settings#dj-only-playlists)
+
 ## How can I make Rythm only respond to Admins/specific roles?
 In order to make Rythm commands just available to specific roles, you can do one of the following:
 
 ### DJ Only Mode
-:::info note
-If someone is alone with Rythm, they are able to use Rythm regardless of having a `DJ` role/`Manage Channel` permission.
-:::
-
  1. Give those you want to have access a role named `DJ`
  2. Run `!settings djonly on`
 
