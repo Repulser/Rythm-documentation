@@ -22,30 +22,6 @@ You can check out the differences on our [releases page](https://rythmbot.co/rel
 <!-- The start of the Basic Information Section -->
 ## Basic Information
 -----
-### How can I play a song or a playlist with Rythm?
-When using Rythm you can either play a song or a playlist. To play a song or a playlist with Rythm, use the commands below:
-
-1. To play a song `!play <Song Name/Song URL>`
-    + **Example:** `!play Wanted by OneRepublic`
-    
-    ![PlayMusicName](/img/docs/faq/play-music-name.png)
-
-    + **Example:** `!play https://www.youtube.com/watch?v=N_qFfQ3xHCw`
-
-    ![PlayMusicLink](/img/docs/faq/play-music-link.png)
-
-:::info note
-Make sure that your song is not over **3 hours long** or Rythm will refuse to play it. To play songs longer than 3 hours, you can consider [**donating**](https://rythmbot.co/donate?do) to Rythm!
-:::
-
-2. To play a playlist `!play <Playlist URL>`
-    + **Example:** `!play https://www.youtube.com/watch?v=oygrmJFKYZY&list=PL4o29bINVT4EG_y-k5jGoOu3-Am8Nvi10`
-
-![PlayMusicPlaylist](/img/docs/faq/play-music-playlist.png)
-
-:::caution note
-Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private` Rythm won't be able to play that specific playlist. Rythm will play up to `500 songs` from a playlist.
-:::
 
 ### I don't know Rythm's prefix. What should I do?
 If you don't know or forget Rythm's prefix, don't stress. We have you covered. You can view the prefix simply by mentioning the bot.
@@ -86,10 +62,6 @@ Head to the [Prefix Settings](/settings#prefix) section to learn more.
 4. Type in your desired nickname.
 5. Finally you can press `Save` and you're good to go.
 
-### How can I donate to Support Rythm?
-Do you enjoy/love Rythm? You can donate to us today by [clicking here](https://rythmbot.co/donate?d)!
-  - You will get awesome perks such as **Volume control**, **Audio Effects**, **Playing songs longer than 3 hours**, **Roles in our Discord server** and more!
-
 ### How can I change the location of Rythm Announcing Songs?
 Rythm will announce songs in the channel where the first command is used.
 
@@ -119,34 +91,6 @@ Rythm will then remove all duplicates of any songs within your servers queue.
    This is because their commands would not affect anyone but themselves.
   - For more information about users command permissions, refer to the **[Understanding Permissions](/permissions)** section in this documentation.
 
-### What does DJ role do and how do I set up DJ role for my server?
-
-#### Permission/Access
-DJ role grants you more permissions over Rythm. You can refer to **[DJ Permission](/permissions#user-alone-with-rythmuser-with-a-dj-role-or-the-manage-channels-permission)** section to learn more about what DJ users can do.
-
-#### Setting up DJ role
-:::note 
-You need to have `Manage Roles` permission to create and assign roles.
-:::
-1. **Create a DJ role:**
-    - Go to your server settings and head to `Roles` section.
-    - Create a new role without any special permission and name it `DJ`.
-    - Click on `Save Changes`, and you just created a new DJ role. 🎉<br/>
-    ![CreateDJRole](/img/docs/faq/setting-dj.png)
-2. **Assign the DJ role to other users:**
-    - You can do it by clicking on their name
-    - Clicking on `+`
-    - Choosing `DJ` role.<br/>
-    ![AssignDJRole](/img/docs/faq/assign-dj.png)
-    
-You are all set! Rythm will automatically recognize the `DJ` role and work perfectly!
-
-#### Other DJ setttings
-Use the links below to go to each setting:
-1. [DJ Role](/settings#dj-role) (Set a role to be considered as DJ)
-2. [DJ Only Mode](/settings#dj-only-mode)
-3. [DJ Only Playlist](/settings#dj-only-playlists)
-
 ### How many votes are required for a song to be vote skipped?
 For a vote skip to take effect, `75%` of the people in the voice chat need to vote to skip.
 
@@ -163,6 +107,10 @@ For a vote skip to take effect, `75%` of the people in the voice chat need to vo
 
 ### How can I remove my vote for song skipping?
 Simply disconnect yourself from the voice channel and join again!
+
+### How can I donate to Support Rythm?
+Do you enjoy/love Rythm? You can donate to us today by [clicking here](https://rythmbot.co/donate?d)!
+  - You will get awesome perks such as **Volume control**, **Audio Effects**, **Playing songs longer than 3 hours**, **Roles in our Discord server** and more!
 
 <!-- The end of the Basic Information Section -->
 
