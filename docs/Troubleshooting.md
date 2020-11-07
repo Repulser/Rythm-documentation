@@ -104,4 +104,4 @@ If the above method does not work, try changing the server region of your server
 
 ## I've read everything above but none fixed my issue. What do I do?
 
-In case nothing from the list above has helped you, please go to [Miscellaneous Help](/misc_help).
+In case nothing from the list above has helped you, please go to [Get Support] section(/get_support).
