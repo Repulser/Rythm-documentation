@@ -47,4 +47,4 @@ If you can't hear Rythm in any servers (including the [official Rythm server](ht
 
 3. Try following [Discord's Voice & Video Troubleshooting Guide](https://support.discord.com/hc/en-us/articles/360045138471-Discord-Voice-and-Video-Troubleshooting-Guide). 
 
-If all of these still don't fix your issue or you are stuggling at any part, go to [Get Support] section(/get_support).
+If all of these still don't fix your issue or you are stuggling at any part, go to [Get Support](/get_support) section.
