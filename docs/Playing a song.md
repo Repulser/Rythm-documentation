@@ -30,16 +30,16 @@ Make sure that your song is not over **3 hours long** or Rythm will refuse to pl
 :::
 
   - To play a playlist `!play <Playlist URL>`
-    + **Example:** `!play https://www.youtube.com/watch?v=oygrmJFKYZY&list=PL4o29bINVT4EG_y-k5jGoOu3-Am8Nvi10`
+    + **Example:** `!play https://www.youtube.com/playlist?list=PLiPlnw1JViQLAtNaJAHw6n2aEG669ksKq`
 
     ![PlayMusicPlaylist](/img/docs/playing-a-song/playplaylist.png)
 
 :::caution note
   - Make sure the playlist is either `Unlisted` or `Public`. If it is set to `Private`, Rythm won't be able to play that specific playlist. 
-  - Rythm will play up to `500 songs` from a playlist.
+  - Rythm can play up to `500 songs` from a playlist.
 :::
 
-**4. If you need more search results you can use `!search <song name>` and chooose the option you want.**
+**4. If you need more search results, you can use `!search <song name>` and chooose the option you want.**
 
 ![Searching a song](/img/docs/playing-a-song/searchsong.png)
 
