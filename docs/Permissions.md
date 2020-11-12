@@ -65,8 +65,8 @@ Use the links below to go to each setting:
 In order to make Rythm commands just available to specific roles, you can do one of the following:
 
 ### DJ Only Mode
- 1. Give those you want to have access a role named `DJ`
- 2. Run `!settings djonly on`
+ 1. Give users you want to have access a role named `DJ` or a role which is considered as DJ from the `!settings djrole` command. ([More info on DJ Role setting](/settings#dj-role))
+ 2. Run `!settings djonly on` ([More info on DJ Only mode](/settings#dj-only-mode))
 
 ### Blacklisting Channels
  1. Make a channel that can only be seen by users with the specific role.
