@@ -62,18 +62,16 @@ Head to the [Prefix Settings](/settings#prefix) section to learn more.
 4. Type in your desired nickname.
 5. Finally you can press `Save` and you're good to go.
 
-### How can I change the location of Rythm Announcing Songs?
-Rythm will announce songs in the channel where the first command is used.
-
-1. Let's say you used the `!play <Song>` or the `!summon` command in the channel `#music`. Rythm will start announcing songs in that channel.
-2. If you would like to change the location of the song announcements, you can do `!join` the desired channel.
-
-### How can I view more than one page using the `queue` command?
-You can view more than one queue page by doing `!queue <Page Number>`.
-  - **Example:** `!queue 2`, `!queue 3`
-
+### How can I view more than one page of the queue?
+You can view more than one queue page by either:
+- Running `!queue <Page Number>`. **Example:** `!queue 2`, `!queue 3`.
+    
 ![QueueNumber](/img/docs/faq/queue-number.png)
-
+    
+- Using the reactions given to switch between pages.
+    
+![QueueReaction](/img/docs/faq/queue-reaction.png)
+        
 ### How can I remove duplicate songs from the queue?
 To remove duplicate songs you can use the command `!removedupes`.
 
