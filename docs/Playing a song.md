@@ -3,7 +3,7 @@ id: play_song
 title: Playing a Song
 ---
 
-So you have invited Rythm into your server. Cool! (If you haven't, [click here](/adding_rythm)). Now, follow this guide to play songs through Rythm:
+Now you have Rythm sitting nicely in your server. Cool! (If you haven't invited Rythm, [click here](/adding_rythm)). To start playing songs through Rythm, follow this guide:
 
 **1. Join a Voice Channel.**
   - You can do that by clicking on the channel with a speaker icon.
