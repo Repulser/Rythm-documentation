@@ -54,7 +54,7 @@ In order to make Rythm commands just available to specific roles, you can do one
 ## How can I give all users access to all music commands?
 There is currently no setting that will apply DJ to all users. You will have to either give them the `Manage Channels` permission or the DJ role manually.
 
-If every member in your server has a common role, you can use the following settings command to set that role to be DJ Role: `!settings djrole <Role name> / <@Role>`. To learn more, head to the [DJ role setting section](/settings/#dj-role).
+If every member in your server has a common role, you can use the following settings command to set that role to be DJ Role: `!settings djrole <Role name> / <@Role>`. To learn more, head to the [DJ Role section](/dj_role).
 
 ## How do I restrict Rythm from being used in a specific text/voice channel?
 ### Block music commands from specific text channels.
