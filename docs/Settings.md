@@ -34,7 +34,7 @@ To change the prefix to anything you like, use the following command:<br/>
 If you are unable to use the current prefix, you can also use the mention as the prefix:<br/>
 `@Rythm#3722 settings prefix <newprefix>`
 
-Be sure to not include the angle brackets `<>` when setting the prefix, as it'll become part of the prefix.
+Be sure to not include the brackets (`<>`/`[]`/`{}`) when setting the prefix, as they'll become part of the prefix.
 
 **Example**: If you wanted to change the prefix to be `$` so it's `$play`, use `!settings prefix $`<br/>
 
@@ -73,10 +73,10 @@ To setup AutoPlay, provide a playlist using the following command:<br/>
 ![Autoplay example](/img/docs/settings/autoplay-example.png)
 
 ## Announce Songs
-When enabled, sends a message to announce when a song has started playing.
+When enabled, Rythm will send a message to announce when a song has started playing.
 
 :::caution
-The messages go to where you summon Rythm via `!join` or `!play`.
+The messages go to where your last command is.
 :::
 
 To enable or disable song announcements, use the following command:<br/>
@@ -118,9 +118,9 @@ You can also set it back to default:<br/>
 ![Max user songs example](/img/docs/settings/max-user-songs-example.png)
 
 ## Duplicate Song Prevention
-Prevent duplicates from being played.
+This prevents duplicated songs from being played.
 
-To enable or disable this, use the following command:<br/>
+To enable or disable the setting, use the following command:<br/>
 `!settings preventduplicates yes/no`
 
 **Example**: If you want to prevent duplicates of songs from being played, use `!settings preventduplicates yes`<br/>
@@ -132,10 +132,10 @@ To enable or disable this, use the following command:<br/>
 This is a Donator-only feature. [Donate to our Patreon](https://rythmbot.co/donate) in order to activate this feature.
 :::
 
-**This is not the same as `!volume`.** This is for changing the default volume for new listening sessions. If you need to change the volume for the current listening session, use `!volume <0-200>`, for example: `!volume 50`
+**This is not the same as `!volume`.** This is for changing the default volume for new listening sessions. If you need to change the volume for the current listening session, use `!volume <1-200>`, for example: `!volume 50`
 
 To change the default volume for when you summon Rythm to a voice channel, use the following command:<br/>
-`!settings defaultvolume <0-200>`
+`!settings defaultvolume <1-200>`
 
 **Example**: If you wanted the volume to be 25 when someone summons Rythm, use `!settings defaultvolume 25`<br/>
 
@@ -143,10 +143,6 @@ To change the default volume for when you summon Rythm to a voice channel, use t
 
 ## DJ Only Playlists
 This setting allows you to control if only DJs can queue playlists, or if everyone can.
-
-:::caution
-Due to how Rythm counts DJ, if someone is alone with Rythm, they are able to queue a playlist regardless of having a DJ role.
-:::
 
 To enable or disable DJ only playlists, use the following command:<br/>
 `!settings djplaylists yes/no`

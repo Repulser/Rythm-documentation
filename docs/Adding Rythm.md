@@ -5,7 +5,7 @@ title: Adding Rythm
 
 ## How do I add Rythm to my server?
 
-Okay, so you want to add Rythm to your server? That's great! You can add any release of Rythm that you want by going [here](https://rythmbot.co/releases). 
+Okay, so you want to add Rythm to your server? That's great! You can add any release of Rythm that you want by going [here](https://rythmbot.co/releases).
 
 ## The authorization process
 
@@ -15,7 +15,7 @@ Once you've chosen the release of Rythm that you would like to invite from the l
 
 ![Discord Authorization Screen](/img/docs/adding/discord-oauth2-1.png)
 
-If you press on **Select a server**, a pop-up should appear that will let you select where you'd like to add Rythm. In this case, we'll add the bot to **User's Server**. [If you don't see your server in this drop-down, click here!](/basic_troubleshooting#when-adding-rythm-i-cant-see-my-server-in-the-list)
+If you press on **Select a server**, a pop-up should appear that will let you select where you'd like to add Rythm. In this case, we'll add the bot to **User's Server**. [If you don't see your server in this drop-down, click here!](/invite_troubleshooting#when-adding-rythm-i-cant-see-my-server-in-the-list)
 
 ![Choose the server that you'd like and continue](/img/docs/adding/discord-oauth2-2.png)
 
@@ -35,4 +35,4 @@ Once you press the **Authorize** button and complete the Captcha, you should be 
 
 Now let's get the party started by [playing some songs](/play_song)!
 
-For any issues with inviting Rythm, check out the [Invite Troubleshooting](/basic_troubleshooting#inviting-troubleshooting) section.
+For any issues with inviting Rythm, check out the [Invite Troubleshooting](/invite_troubleshooting) section.

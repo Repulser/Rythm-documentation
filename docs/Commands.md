@@ -5,97 +5,139 @@ title: Commands
 
 :::info Note
 ### Always remember the following!
-- The default prefix of Rythm is `!`. If you have changed your prefix to something else, please use your prefix instead of `!`. If you forget your prefix, mention Rythm (`@Rythm#3722`). 
+- The default prefix of Rythm is `!`. If you have changed your prefix to something else, please use your prefix instead of `!`. If you forget your prefix, mention Rythm (`@Rythm#3722`).
 - **Never include `<>` in your messages when using a command!**
 - Time can be in different formats
    + Example: `100`, `1:50`, `2m30s`
 :::
 
+## Song
 ---
 <!-- Song-related commands -->
 - **`!join`** - Summons the bot to the voice channel you are in.
---- 
-- **`!play`** - Plays a song with the given name or url. [More Info](/play_song)
-    - `!play <song/link>` 
+    - **Aliases:** `summon`, `fuckon`
 ---
-- **`!playtop`** - Like the play command, but queues from the top. 
-    - `!playtop <link/query>`
---- 
-- **`!playnow`** - Skips the current song and plays the song you requested.
-    - `!playnow <link/query>`
---- 
-- **`!search`** - Searches YouTube for results of a URL.
-    - `!search <song name>`
---- 
-- **`!soundcloud`** - Searches SoundCloud for a song.
-    - `!soundcloud <Search query>`
---- 
-- **`!nowplaying`** - Shows what song the bot is currently playing.
---- 
+- **`!play`** - Plays a song from with the given name or url. [More Info](/play_song)
+    - **Usage:** `!play <link/query>`
+    - **Alias:** `p`
+---
+- **`!playtop`** - Plays a song from with the given name/url, but queues the song from the top.
+    - **Usage:** `!playtop <link/query>`
+    - **Aliases:** `pt`, `ptop`
+---
+- **`!playskip`** - Skips the current song and plays the song you requested.
+    - **Usage:** `!playskip <link/query>`
+    - **Aliases:** `ps`, `pskip`, `playnow`, `pn`
+---
+- **`!search`** - Searches from [Youtube](https://www.youtube.com) for a song via your query and returns the top 10 results.
+    - **Usage:** `!search <query>`
+    - **Alias:** `find`
+---
+- **`!soundcloud`** - Plays a song from [SoundCloud](https://www.soundcloud.com)  with the given name/url
+    - **Usage:** `!soundcloud <link/query>`
+    - **Alias:** `sc`
+---
+- **`!nowplaying`** - Shows what song Rythm is currently playing.
+    - **Alias:** `np`
+---
 - **`!grab`** - Saves the current playing song to your Direct Messages.
+    - **Aliases:** `save`, `yoink`
 ---
 - **`!seek`** - Seeks to a certain point in the current track.
-    - `!seek <time>`
---- 
-- **`!rewind`** - Rewinds by a certain amount in the current track. 
-    - `!rewind <time>`
---- 
-- **`!forward`** - Forwards by a certain amount in the current track.
-    - `!forward <time>`
---- 
+    - **Usage:** `!seek <time>`
+---
+- **`!rewind`** - Rewinds by a certain amount of time in the current track.
+    - **Usage:** `!rewind <time>`
+    - **Alias:** `rwd`
+---
+- **`!forward`** - Forwards by a certain amount of time in the current track.
+    - **Usage:** `!forward <time>`
+    - **Alias:** `fwd`
+---
 - **`!replay`** - Resets the progress of the current song.
---- 
+---
 - **`!loop`** - Toggles looping for the current playing song.
---- 
-- **`!skip`** - Votes to skip the currently playing song.
-    - `!skip <number>` - Skip a certain amount of songs.
---- 
-- **`!forceskip`** - Skips the currently playing song immediately.
---- 
-- **`!pause`** - Pauses the currently playing track. 
---- 
+    - **Alias:** `repeat`
+---
+- **`!skip`** - Votes to skip the current playing song. **[More Info](/voteskip#how-many-votes-are-required-for-a-song-to-be-vote-skipped)**
+    - **Other Usage:** `!skip <number>` - Skip a certain amount of songs.
+    - **Alias:** `voteskip`, `next`, `s`
+---
+- **`!forceskip`** - Skips the current playing song immediately.
+    - **Other Usage:** `!forceskip <number>` - Skip a certain amount of songs.
+    - **Aliases:** `fs`, `fskip`
+    - **Note:** `DJ` role/`Manage Channels` permission required.
+---
+- **`!pause`** - Pauses the current playing track.
+    - **Alias:** `stop`
+---
 - **`!resume`** - Resumes paused music.
---- 
+    - **Aliases:** `re`, `res`, `continue`
+---
 - **`!lyrics`** - Gets the lyrics of the current playing song.
-    - `!lyrics <song name>` - Gets the lyrics of the mentioned song.
---- 
+    - **Other Usage:** `!lyrics <song name>` - Gets the lyrics of the mentioned song.
+    - **Aliases:** `l`, `ly`
+---
 - **`!disconnect`** - Disconnects the bot from the voice channel it is in.
+    - **Aliases:** `dc`, `leave`, `dis`, `fuckoff`
 ---
-<!-- Queue-related commands -->
-- **`!queue`** - Shows the queue. To view different pages, type the command with the specified page number after it.
-    - `!queue <page>`
---- 
+
+## Queue
+---
+- **`!queue`** - Shows the first page of the queue.
+    - **Other Usage:** `!queue <page>`: Shows the specified page number.
+    - **Alias:** `q`
+---
 - **`!loopqueue`** - Toggles looping for the whole queue.
---- 
-- **`!move`** - Moves a certain song to the first position in the queue.	 
-    - `!move <old positon> <new position>` - Move a certain song to a chosen position in the queue.
---- 
-- **`!skipto`** - Skips to a certain position in the queue. 
-    - `!skipto <position>`
---- 
-- **`!shuffle`** -  Shuffles the entire queue. 
---- 
-- **`!remove`** - Removes a certain entry from the queue.
-    - `!remove <numbers>`
+    - **Aliases:** `qloop`, `lq`, `queueloop`
 ---
-- **`!clear`** - Clears the whole queue. 
-    - `!clear <@user>` - Clears all songs requested by the mentioned user.
---- 
+- **`!move`** - Moves a certain song to a chosen position in the queue.
+    - **Usage:** `!move <old positon> <new position>`
+    - **Aliases:** `m`, `mv`
+    - **Note:** If the `<new position>` is not specified, the song will be moved to the first position of the queue
+---
+- **`!skipto`** - Skips to a certain position in the queue.
+    - **Usage:** `!skipto <position>`
+    - **Alias:** `st`
+---
+- **`!shuffle`** -  Shuffles the entire queue.
+    - **Alias:** `random`
+---
+- **`!remove`** - Removes a certain entry from the queue.
+    - **Usage:** `!remove <numbers>`
+    - **Alias:** `rm`
+---
+- **`!clear`** - Clears the whole queue.
+    - **Other Usage:** `!clear <@user>` - Clears all songs requested by the mentioned user.
+    - **Alias:** `cl`
+---
 - **`!leavecleanup`** - Removes absent user's songs from the queue.
+    - **Alias:** `lc`
 ---
 - **`!removedupes`** - Removes duplicate songs from the queue.
---- 
-<!-- Koodos-related commands -->
-- **`!sotd`** - Shows the song of the day. [More Info](/features#koodos-integration)
-    - `!playsotd` - Queue the song of the day.
+    - **Aliases:** `rmd`, `rd`, `drm`
 ---
-- **`!sotw`** - Shows the songs of the week. [More Info](/features#koodos-integration)
-    - `!playsotd` - Queue the songs of the week.
+
+## koodos
 ---
-- **`!sotm`** - Shows the song of the month. [More Info](/features#koodos-integration)
-    - `!playsotm` - Queue the songs of the month.
+- **`!sotd`** - Shows the song of the day. [More Info](/koodos#song-of-the-day)
 ---
-<!-- Settings-related commands -->
+- **`!playsotd`** - Queue the song of the day.
+    - **Alias:** `psotd`
+---
+- **`!sotw`** - Shows the songs of the week. [More Info](/koodos#song-of-the-week)
+---
+- **`!playsotw`** - Queue the songs of the week.
+    - **Alias:** `psotw`
+---
+- **`!sotm`** - Shows the songs of the month. [More Info](/koodos#song-of-the-month)
+---
+- **`!playsotm`** - Queue the songs of the month.
+    - **Alias:** `psotm`
+---
+
+## Settings
+---
 - **`!settings`** - Use the command format `!settings <option>` to view more info about an option. [More Info](/settings)
 
     - **`prefix`** - Changes Rythm's prefix. [More Info](/settings#prefix)
@@ -109,36 +151,47 @@ title: Commands
     - **`djplaylists`** - Allows only DJs to queue playlists. [More Info](/settings#dj-only-playlists)
     - **`defaultvolume`** - Sets the default volume that the bot will always start at. [**Donator Only**](https://rythmbot.co/donate?do). [More Info](/settings#default-volume)
     - **`autoplay`** - Toggles auto-playing songs from playlist when nothing else playing. [**Donator Only**](https://rythmbot.co/donate?do). [More Info](/settings#autoplay)
-    - **`reset`** - Resets Rythm totally. [More Info](/settings#reset)
---- 
-<!-- Donators-related commands -->
-- **`!donate`** - Information about donating to Rythm.
---- 
+    - **`reset`** - Resets all Rythm settings. [More Info](/settings#reset)
+---
+
+## [Donators](https://rythmbot.co/donate?do)
+---
+- **`!donate`** - Shows information about donating to Rythm.
+    - **Alias:** `patreon`
+---
 - **`!effects`** - Shows current audio effects.  [**Donator Only**](https://rythmbot.co/donate?do)
-    - `!effects help` - Shows all available audio effects.
-    - `!effects clear` - Clears all audio effects.
+    - **Other Usages**:
+        - `!effects help` - Shows all available audio effects.
+        - `!effects clear` - Clears all audio effects.
+    - **Alias:** `effect`
 ---
 - **`!speed`** - Modifies the playback speed.  [**Donator Only**](https://rythmbot.co/donate?do)
 ---
-- **`!bass`** - Bass boosts the current song.  [**Donator Only**](https://rythmbot.co/donate?do)
+- **`!bass`** - Bass-boosts the current song.  [**Donator Only**](https://rythmbot.co/donate?do)
 ---
 - **`!nightcore`** - Toggles nightcore effect.  [**Donator Only**](https://rythmbot.co/donate?do)
 ---
 - **`!slowed`** - Toggles slowed effect.  [**Donator Only**](https://rythmbot.co/donate?do)
 ---
 - **`!volume`** - Outputs the current volume.   [**Donator Only**](https://rythmbot.co/donate?do)
-    - `!volume <amount>` - Change the current volume. (Allowed Value: 1-200)
---- 
-<!-- Bot-related commands -->
+    - **Other Usage:** `!volume <1-200>` - Changes the current volume.
+    - **Alias:** `vol`
+---
+
+## Others
+---
 - **`!prune`** - Deletes the bot's messages and commands.
---- 
-- **`!invite`** - Rythm's official links! 
---- 
-- **`!info`** - Information about Rythm!
---- 
-- **`!shard`** - Checks the server shard you are in.
---- 
+    - **Aliases:** `purge`, `clean`
+---
+- **`!invite`** - Shows Rythm's official links!
+    - **Alias:** `links`
+---
+- **`!info`** - Shows information about Rythm!
+---
+- **`!shard`** - Checks the server shard your server is in.
+    - **Alias:** `debug`
+---
 - **`!ping`** - Checks the bot's response time to Discord.
 ---
-- **`!aliases`** - Lists command aliases.
---- 
+- **`!aliases`** - Lists all command aliases.
+---

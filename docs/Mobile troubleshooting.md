@@ -18,4 +18,4 @@ https://discord.com/oauth2/authorize?client_id=235088799074484224&permissions=8&
 
 [Click here](https://support.google.com/chrome/answer/95464) to learn how to open an Incognito Tab.
 
-If all of these don't fix your issue, please go to [Miscellaneous Help](/misc_help).
+If all of these don't fix your issue, please go to [Get Support](/get_support) section.
