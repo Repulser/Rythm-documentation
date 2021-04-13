@@ -54,9 +54,9 @@ title: Commands
     - **Usage:** `!forward <time>`
     - **Alias:** `fwd`
 ---
-- **`!replay`** - Resets the progress of the current song.
+- **`!replay`** - resets all songs
 ---
-- **`!loop`** - Toggles looping for the current playing song.
+- **`!loop`** - toggles loop for all songs--
     - **Alias:** `repeat`
 ---
 - **`!voteskip`** - Votes to skip the current playing song. **[More Info](/voteskip#how-many-votes-are-required-for-a-song-to-be-vote-skipped)**
