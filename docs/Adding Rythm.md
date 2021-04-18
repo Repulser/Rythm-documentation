@@ -11,61 +11,61 @@ Ready to start listening with Rythm? We currently offer 2 bots for free and 3 bo
 
 ## Rythm releases
 ---
-These are all official releases of Rythm Bot:
+These are all mod releases of Rythm Bot:
 
 <Tabs
-  defaultValue="r1"
+  defaultValue="r6"
   values={[
-    {label: 'Rythm', value: 'r1'},
-    {label: 'Rythm 2', value: 'r2'},
-    {label: 'Rythm 3', value: 'r3'},
-    {label: 'Rythm 4', value: 'r4'},
-    {label: 'Rythm 5', value: 'r5'},
+    {label: 'Rythm 6', value: 'r6'},
+    {label: 'Rythm 7', value: 'r7'},
+    {label: 'Rythm 8', value: 'r8'},
+    {label: 'Rythm 9', value: 'r9'},
+    {label: 'Rythm 10', value: 'r10'},
   ]}>
-  <TabItem value="r1">
-    <img src="/docs/img/docs/adding/rythm.png" alt="rythm"/><br/>
+  <TabItem value="r6">
+    <img src="/docs/img/docs/adding/rythm5.png" alt="rythm 6"/><br/>
     <h2>Rythm (<code>Rythm#3722</code>)</h2>
     <ul>
       <li>Prefix: <code>!</code></li>
-      <li>Rythm is our main bot used by the most servers. This bot and most of its features are available to the public <b>for free</b>.</li>
+      <li>Rythm is the 6 Rythm bot, used by the 6 servers. This bot and most of its features are available to the public <b>for free</b>.</li>
     </ul>
-    <Button onClick = {() => window.open('http://rythm.fm/invite','_blank')}>Invite Rythm</Button>
+    <Button onClick = {() => window.open('http://rythm.fm/invite6','_blank')}>Invite Rythm 6</Button>
   </TabItem>
-  <TabItem value="r2">
-    <img src="/docs/img/docs/adding/rythm-2.png" alt="rythm 2"/><br/>
+  <TabItem value="r7">
+    <img src="/docs/img/docs/adding/rythm-5.png" alt="rythm 7"/><br/>
     <h2>Rythm 2 (<code>Rythm 2#2000</code>)</h2>
     <ul>
       <li>Prefix: <code>&gt;</code></li>
-      <li>Rythm 2 is the secondary Rythm bot, used by the second most number of servers. It is identical in functionality to Rythm 1, the only difference being the prefix. This bot and most of its features are available to the public <b>for free</b>.</li>
+      <li>Rythm 7 is the 7 Rythm bot, used by the 7 most number of servers. It is identical in functionality to Rythm 6, the only difference being the prefix. This bot and most of its features are available to the public <b>for free</b>.</li>
     </ul>
-    <Button onClick = {() => window.open('http://rythm.fm/invite2','_blank')}>Invite Rythm 2</Button>
+    <Button onClick = {() => window.open('http://rythm.fm/invite7','_blank')}>Invite Rythm 7</Button>
   </TabItem>
-  <TabItem value="r3">
-    <img src="/docs/img/docs/adding/rythm-3.png" alt="rythm 3"/><br/>
-    <h2>Rythm 3 (<code>Rythm 3#0817</code> - <a href="https://rythm.fm/premium"><b>Premium only</b></a>)</h2>
+  <TabItem value="r8">
+    <img src="/docs/img/docs/adding/rythm-5.png" alt="rythm 8"/><br/>
+    <h2>Rythm 8 (<code>Rythm 3#0817</code> - <a href="https://rythm.fm/premium"><b>Premium only</b></a>)</h2>
     <ul>
       <li>Prefix: <code>&</code></li>
-      <li>Rythm 3 is the third Rythm bot. While you can still invite Rythm 3, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
+      <li>Rythm 8 is the 8 Rythm bot. While you can still invite Rythm 8, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
     </ul>
-    <Button onClick = {() => window.open('http://rythm.fm/invite3','_blank')}>Invite Rythm 3</Button>
+    <Button onClick = {() => window.open('http://rythm.fm/invite8','_blank')}>Invite Rythm 8</Button>
   </TabItem>
-  <TabItem value="r4">
-    <img src="/docs/img/docs/adding/rythm-4.png" alt="rythm 4"/><br/>
-    <h2>Rythm 4 (<code>Rythm 4#0952</code> - <a href="https://rythm.fm/premium"><b>Premium only</b></a>)</h2>
+  <TabItem value="r9">
+    <img src="/docs/img/docs/adding/rythm-5.png" alt="rythm 9"/><br/>
+    <h2>Rythm 9 (<code>Rythm 4#0952</code> - <a href="https://rythm.fm/premium"><b>Premium only</b></a>)</h2>
     <ul>
       <li>Prefix: <code>%</code></li>
-      <li>Rythm 4 is the fourth Rythm bot. While you can still invite Rythm 4, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
+      <li>Rythm 9 is the 9 Rythm bot. While you can still invite Rythm 9, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
     </ul>
-    <Button onClick = {() => window.open('http://rythm.fm/invite4','_blank')}>Invite Rythm 4</Button>
+    <Button onClick = {() => window.open('http://rythm.fm/invite9','_blank')}>Invite Rythm 9</Button>
   </TabItem>
-  <TabItem value="r5">
-    <img src="/docs/img/docs/adding/rythm-5.png" alt="rythm 5"/><br/>
-    <h2>Rythm 5 (<code>Rythm 5#6171</code> - <a href="https://rythm.fm/premium"><b>Premium only</b></a>)</h2>
+  <TabItem value="r10">
+    <img src="/docs/img/docs/adding/rythm-5.png" alt="rythm 10"/><br/>
+    <h2>Rythm 10 (<code>Rythm 5#6171</code> - <a href="https://rythm.fm/premium"><b>Premium only</b></a>)</h2>
     <ul>
       <li>Prefix: <code>-</code></li>
-      <li>Rythm 5 is the fifth Rythm bot. While you can still invite Rythm 5, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it</li>
+      <li>Rythm 10 is the 10 Rythm bot. While you can still invite Rythm 10, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it</li>
     </ul>
-    <Button onClick = {() => window.open('http://rythm.fm/invite5','_blank')}>Invite Rythm 5</Button>
+    <Button onClick = {() => window.open('http://rythm.fm/invite10','_blank')}>Invite Rythm 10</Button>
   </TabItem>
 </Tabs>
 
@@ -90,7 +90,7 @@ If you don't see your server in this drop-down, [click here!](/invite_troublesho
 
 Once you've selected the server that you'd like to add Rythm to, you can press the **Continue** button on the bottom right of the menu.
 
-You should now see something similar to this:
+MOD r6 r6 r8 r9 r10 (mod)
 
 ![Press authorize and you'll be good to go!](/img/docs/adding/discord-oauth2-3.png)
 
