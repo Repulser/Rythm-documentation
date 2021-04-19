@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Do you ❤️ Rythm? Turn your server into a party with Rythm Premium. You can [subscribe today](https://rythm.fm/premium) to get awesome perks such as better audio quality, **3** additional Rythm bots and more! 🔥 🔥
 ## What are the plans and pricing?
 ---
-We provide 3 pre-made premium packs for you to freely choose which suits you best!
+We provide 3 pre-made premium plans for you to freely choose which suits you best!
 <Tabs
   defaultValue="personal"
   values={[
