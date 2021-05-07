@@ -73,7 +73,7 @@ export const Highlight = ({children, color}) => (
       <ul>
         <h2><Highlight color="#46af2c">Rythm 4</Highlight> (<code>Rythm 4#0952</code>)</h2>
         <li>Prefix: <code>%</code></li>
-        <li>Rythm 4 is the forth Rythm. While you can still invite Rythm 4, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
+        <li>Rythm 4 is the fourth Rythm. While you can still invite Rythm 4, you need to <a href="https://rythm.fm/premium">activate Premium</a> for your server to use it.</li>
       </ul>
     </td>
   </tr>
