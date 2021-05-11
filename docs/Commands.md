@@ -18,19 +18,19 @@ title: Commands
 - **`!join`** - Summons the bot to the voice channel you are in.
     - **Aliases:** `summon`
 ---
-- **`!play`** - Plays a song with the given name or url. [**More Info**](/play_song)
+- **`!p`** - Plays a song with the given name or url. [**More Info**](/play_song)
     - **Usage:** `!play <link/query>`
     - **Alias:** `p`
 ---
-- **`!playtop`** - Adds a song with the given name/url __on the top of the queue__.
+- **`!pt`** - Adds a song with the given name/url __on the top of the queue__.
     - **Usage:** `!playtop <link/query>`
     - **Aliases:** `pt`, `ptop`
 ---
-- **`!playskip`** - Skips the current song and plays the song you requested.
+- **`!ps`** - Skips the current song and plays the song you requested.
     - **Usage:** `!playskip <link/query>`
     - **Aliases:** `ps`, `pskip`, `playnow`, `pn`
 ---
-- **`!search`** - Searches from [Youtube](https://www.youtube.com) for a song via your query and returns the top 10 results.
+- **`!s`** - Searches from [Youtube](https://www.youtube.com) for a song via your query and returns the top 10 results.
     - **Usage:** `!search <query>`
     - **Alias:** `find`
 ---
@@ -47,7 +47,7 @@ title: Commands
 - **`!seek`** - Seeks to a certain point in the current track.
     - **Usage:** `!seek <time>`
 ---
-- **`!rewind`** - Rewinds by a certain amount of time in the current track.
+- **`!r`** - Rewinds by a certain amount of time in the current track.
     - **Usage:** `!rewind <time>`
     - **Alias:** `rwd`
 ---
