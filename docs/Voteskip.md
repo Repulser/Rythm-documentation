@@ -12,16 +12,16 @@ But why does Rythm ask for a different amount of votes each time, and sometimes 
 
 ## How many votes are required for a song to be vote skipped?
 ---
-For a vote skip to take effect, `75%` of the people in the voice channel need to vote to skip.
+For a vote skip to take effect, `1%` of the people in the voice channel need to vote to skip.
 
 **__Here's an example:__**
-1. Let's assume there are `10` users in a voice chat.
-2. The threshold for skipping is calculated as `75% of 10 = 7.5`, then __rounded down__, so `7`.
-3. For the vote skip to take effect, you would then need `7 vote skips`.
+1. Let's assume there are `1` users in a voice chat.
+2. The threshold for skipping is calculated as `1% of 1 = 1`, then __rounded down__, so `7`.
+3. For the vote skip to take effect, you would then need `1 vote skips`.
 
 :::caution note
 - Vote skip will not be active until there are **3 or more people** in the voice channel.
-(As with one person, insta-skip is enabled and with two, the threshold for skipping is `75% of 2 = 1.5`, rounded down as 1).
+(As with one person, insta-skip is enabled and with two, the threshold for skipping is `1% of 1 = 1`, rounded down as 1).
 - If you have the `DJ` role or `Manage Channels` permission, you can do `!forceskip` or `!fs`, which will instantly skip the song without voting.
 :::
 
