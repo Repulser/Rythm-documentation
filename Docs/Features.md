@@ -21,9 +21,9 @@ Now you can sing along or host a some karaoke event with friends even if you don
 ## 🎚️ Advanced Music Functionality
 ---
 ### Player
-While listening to Rythm, you can control the player with useful commands such as `!seek`, `!replay`...
+While listening to Rythm, you can control the player with useful commands such as `!seek`, `!play`...
 
-![Player](/img/docs/features/player-feature.png)
+![Play](/img/docs/features/player-feature.png)
 
 #### Effects ([**Premium Only**](https://rythm.fm/premium))
 [Rythm Premium](https://rythm.fm/premium) grants you special and fascinating perks including sound effects. You will be able to modify and adjust the playback as you wish, bringing you the blazing experience with Rythm.
