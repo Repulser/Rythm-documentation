@@ -26,7 +26,7 @@ We provide 3 pre-made premium packs for you to freely choose which suits you bes
       <li>⚡ Audio effects.</li>
       <li>⏩ Ability to play songs over 3 hours.</li>
       <li>⚙️ Ability to change <b>AutoPlay</b> and <b>DefaultVolume</b> settings.</li>
-      <li>🌠 Prioritized support in our <a href="https://rythm.fm/support">Discord server</a>.</li>
+      <li>🌠 Prioritized support in our <a href="https://rythm.fm/support_site">Discord server</a>.</li>
       <li>🏅 A shiny badge in our <a href="https://rythm.fm/app">web dashboard.</a></li>
     </ul>
   </TabItem>
@@ -39,7 +39,7 @@ We provide 3 pre-made premium packs for you to freely choose which suits you bes
       <li>⚡ Audio effects.</li>
       <li>⏩ Ability to play songs over 3 hours.</li>
       <li>⚙️ Ability to change <b>AutoPlay</b> and <b>DefaultVolume</b> settings.</li>
-      <li>🌠 Prioritized support in our <a href="https://rythm.fm/support">Discord server</a>.</li>
+      <li>🌠 Prioritized support in our <a href="https://rythm.fm/support_site">Discord server</a>.</li>
       <li>🏅 A shiny badge in our <a href="https://rythm.fm/app">web dashboard.</a></li>
     </ul>
   </TabItem>
@@ -52,13 +52,13 @@ We provide 3 pre-made premium packs for you to freely choose which suits you bes
       <li>⚡ Audio effects.</li>
       <li>⏩ Ability to play songs over 3 hours.</li>
       <li>⚙️ Ability to change <b>AutoPlay</b> and <b>DefaultVolume</b> settings.</li>
-      <li>🌠 Prioritized support in our <a href="https://rythm.fm/support">Discord server</a>.</li>
+      <li>🌠 Prioritized support in our <a href="https://rythm.fm/support_site">Discord server</a>.</li>
       <li>🏅 A shiny badge in our <a href="https://rythm.fm/app">web dashboard.</a></li>
     </ul>
     <h3>Extra features:</h3>
     <ul>
       <li>🕒 Rythm staying in your voice channel 24/7.</li>
-      <li>🎀 4 extra Rythm bots!</li>
+      <li>🎀 4 extra Rythm bots! (Rythm 3, 4, 5 and Rythm-chan)</li>
     </ul>
   </TabItem>
 </Tabs>
@@ -68,20 +68,42 @@ We provide 3 pre-made premium packs for you to freely choose which suits you bes
 :::
 ## How to get Rythm Premium perks?
 ---
-1. If you haven't, click the button on the upper-right corner of the screen and log in with your correct Discord account.
+1. Go to https://rythm.fm/premium#plans and choose a preferred plan. The page will prompt you to login if you haven't previously.
 
-1. Go to https://rythm.fm/premium#plans and choose your preferred plan.
+2. Choose a payment method: Credit/debit card or Paypal.
+<Tabs
+  defaultValue="credit"
+  values={[
+    {label: 'Credit/debit card', value: 'credit'},
+    {label: 'Paypal', value: 'paypal'},
+  ]}>
+  <TabItem value="credit">
+    <ul>
+      <li>Fill in your credit card information. Click <code>Next</code> to proceed.</li><br/>
+      <img src="/docs/img/docs/premium/credit-payment-details.png" alt="credit-payment-details"/>
+      <li>Fill in the required field with your private information. Click <code>Next</code> to proceed.</li><br/>
+      <img src="/docs/img/docs/premium/credit-billing-information.png" alt="credit-billing-information"/>
+      <li>Confirm your payment method, billing information, subscription plan, coupon code (if you have one). Press <code>Checkout</code> and we are good to go.</li><br/>
+      <img src="/docs/img/docs/premium/credit-review.png" alt="credit-review"/>
+    </ul>
+  </TabItem>
 
-3. A menu will pop up to confirm your premium plan. You can choose to bill monthly, quarterly (10% off) or yearly (25% off). **Additionally, you can customize your plan by clicking `Edit`**.
+  <TabItem value="paypal">
+    <ul>
+      <li>Log into your Paypal account and choose your preferred Credit for your payment. Click <code>Next</code> to proceed.</li><br/>
+      <img src="/docs/img/docs/premium/paypal-payment-details.png" alt="paypal-payment-details"/>
+      <li>The page will automatically fill in the required information. You will just need to confirm your payment method, billing information, subscription plan, coupon code (if you have one). Press <code>Checkout</code> and we are good to go.</li><br/>
+      <img src="/docs/img/docs/premium/paypal-review.png" alt="paypal-review"/>
+    </ul>
+  </TabItem>
+</Tabs>
 
-  ![Confirm Your Premium Plan](/img/docs/premium/confirm-plan.png)
+:::tip Note
+An email with invoice will be sent to you if the purchase is successful!
+:::
 
-4. Choose your payment method and fill in the required fields. Once you are done, press `Pay & Subscribe`.
-
-  ![Payment](/img/docs/premium/payment.png)
-5. Select the server(s) you want to enable Premium perks on, press `Save`. Everything is all done 🎉
-
-  ![Choose Your Servers](/img/docs/premium/choose-servers.png)
+3. Select the server(s) you want to enable Premium perks on, press <code>Save</code>. Everything is all done 🎉
+![Select Premium servers](/img/docs/premium/server-selector.png)
 
 :::caution
 Be careful when choosing which server(s) to activate Premium. There will be a 3-day cooldown until you can switch servers again.
