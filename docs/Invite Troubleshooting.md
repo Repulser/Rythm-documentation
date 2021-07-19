@@ -33,7 +33,7 @@ If you're sure that **you're signed into the correct account** and **you have pe
 | Explorer | CTRL+Shift+P  | N/A         |
 | Safari   | N/A           | CMD+SHIFT+N |
 
-And instructions to open incognito/private tab for common browsers on mobile can be found in [this article](https://www.digitaltrends.com/mobile/how-to-turn-on-private-browsing-in-android-and-ios/)
+Instructions to open an incognito/private tab for common browsers on mobile can be found in [this article](https://www.digitaltrends.com/mobile/how-to-turn-on-private-browsing-in-android-and-ios/).
 
 #### Why is this necessary?
 
