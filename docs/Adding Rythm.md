@@ -111,7 +111,7 @@ export const Highlight = ({children, color}) => (
 ---
 ### Step one
 
-Once you've chosen the release of Rythm that you would like to invite. and you are logged into the correct Discord account, you should now see a menu like this:
+Once you've chosen the release of Rythm that you would like to invite, and you are logged into the correct Discord account, you should now see a menu like this:
 
 ![Discord Authorization Screen](/img/docs/adding/discord-oauth2-1.png)
 
