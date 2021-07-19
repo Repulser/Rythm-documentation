@@ -18,7 +18,7 @@ You should have full access to the dashboard if you see yourself on the `Admin` 
 :::
 
 ## When adding/removing the DJ role from other users, the dashboard doesn't update!
-In order to update users permission on the dashboard, one must disconnect from the voice channel and join again.
+In order to update a user's permission on the dashboard, they must disconnect from the voice channel and join again.
 
 ## None of the above fixed my issue :(
 If you are 1000% sure your problem is unsolved after following all of those, please go to [Get Support](/get_support) section.

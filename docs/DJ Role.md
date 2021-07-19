@@ -27,7 +27,7 @@ You need the `Manage Roles` permission to create and assign roles in your server
 
 2. **Assign the DJ role to other users:**
     - Click on their name or avatar.
-    - Click on `+`
+    - Click on `+`.
     - Choose `DJ` role.<br/>
 
     ![AssignDJRole](/img/docs/dj-role/assign-dj.gif)

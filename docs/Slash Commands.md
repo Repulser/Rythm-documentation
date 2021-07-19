@@ -23,10 +23,10 @@ Type the command and the required/optional arguments for it will show up. Switch
 ---
 ### How do I stop a role from using slash commands?
 
-To disable Slash Commands for a role, simply revoke `Use Slash Commands` permissions from that role in your server/channel settings.
+To disable Slash Commands for a role, simply revoke the `Use Slash Commands` permissions from that role in your server/channel settings.
 
 ![Disable Slash Commands](/img/docs/slash-commands/disable-slash-commands.png)
 
 ### I don't want Rythm to have Slash Commands in my server. What to do?
 
-Kick Rythm and invite the bot again via [this link](https://discord.com/oauth2/authorize?client_id=235088799074484224&permissions=2150940744&scope=bot&response_type=code&redirect_uri=https%3A%2F%2Frythm.fm%2Fthanks) with the scope for Slash Commands disabled.
+Kick Rythm and invite the bot again via [this link](https://discord.com/oauth2/authorize?client_id=235088799074484224&permissions=2150940744&scope=bot&response_type=code&redirect_uri=https%3A%2F%2Frythm.fm%2Fthanks) that has Slash Commands disabled.

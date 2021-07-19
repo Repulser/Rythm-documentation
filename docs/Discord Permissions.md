@@ -9,9 +9,9 @@ import TabItem from '@theme/TabItem';
 
 Here are some frequent questions related to Discord's permissions system.
 
-## Why does Rythm ask for `Administrator` permission when I invite the bot?
+## Why does Rythm ask for the `Administrator` permission when I invite the bot?
 ---
-Upon inviting, Rythm asks for `Administrator` permission because it will make things easier for you to use the bot without any setup required. Make sure Rythm has all of these permissions to work properly if you revoke its `Administrator` permission:
+Upon inviting, Rythm asks for the `Administrator` permission because it will make things easier for you to use the bot without any setup required. Make sure Rythm has all of these permissions to work properly if you revoke its `Administrator` permission:
 - `View Channels`
 - `Send Messages`
 - `Embed Links`
@@ -38,7 +38,7 @@ After so, Rythm will only be used by users with DJ permissions. More information
     - More information on how to do this can be found at [Discord's support page](https://support.discord.com/hc/en-us/articles/206029707).
  2. Blacklist other text channels by following [here](/permissions#how-do-i-restrict-rythm-from-being-used-in-a-specific-textvoice-channel)
 
-After so, only users having access to the mentioned channel can use Rythm.
+After so, only users with access to the mentioned channel can use Rythm.
 :::caution Note   
 WIth this method, users are still able to queue songs via the web dashboard.
 :::
@@ -67,7 +67,7 @@ First you will need to disable Rythm's `Administrator` permission:
 3. If you have any other roles Rythm is assigned to, repeat this step for each role.
 4. Save and close out of server settings.
 
-After that, you can "blacklist" channels of your choices. By denying Rythm's permissions to access the channels, Rythm won't be used there.
+After that, you can "blacklist" channels of your choices. By denying Rythm's permission to access the channels, Rythm can't be used there.
 <Tabs
   defaultValue="text"
   values={[
@@ -95,7 +95,7 @@ After that, you can "blacklist" channels of your choices. By denying Rythm's per
 </Tabs>
 
 ---
-"But what if my server has a lot of channels and I just want Rythm to stay in a single channel. Do I need to blacklist every other channels? 😩😩😩"
+"But what if my server has a lot of channels and I just want Rythm to stay in a single channel. Do I need to blacklist every other channel? 😩😩😩"
 
 If you have the same idea as the question above, you can use this trick to "whitelist" a channel: Denying Rythm's permissions for a whole category then deciding which channel to allow Rythm to access 😉
 <Tabs

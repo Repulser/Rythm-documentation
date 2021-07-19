@@ -70,7 +70,7 @@ Rythm uses embeds to post messages. You might have disabled website previews on 
 
   - First, take a look at our [#outage](https://discord.com/channels/231471142685245440/359311833653313546) channel on our [Rythm Bot Discord server](https://rythm.fm/support) to see if there are any issues going on.
 
-  - If nothing there, please mention your issue in our [#help-desk](https://discord.com/channels/231471142685245440/359355279004925954) channel on the Rythm Bot Discord server to receive assistance from a member of our Support Team.
+  - If nothing related is there, please mention your issue in our [#help-desk](https://discord.com/channels/231471142685245440/359355279004925954) channel on the Rythm Bot Discord server to receive assistance from a member of our Support Team.
 
 [Click here to join the official Rythm Bot Discord server](https://rythm.fm/support)
 

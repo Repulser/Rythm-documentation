@@ -6,7 +6,7 @@ title: Queue
 
 ## Rythm's Queue
 ---
-  - If you try to play songs while another song is playing, or you try to play a playlist, Rythm will add those into a waiting queue. The order of the songs in queue is the order as you play them.
+  - If you try to play songs while another song is playing, or you try to play a playlist, Rythm will add those into a waiting queue. The order of the songs in queue is the order you requested them.
 
   ![AddingToQueue](/img/docs/queue/add-to-queue.png)
 
